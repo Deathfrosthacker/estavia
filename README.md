@@ -10,15 +10,17 @@ estavia/
 ├── css/
 │   └── style.css       # Navy + gold theme styles
 ├── js/
-│   └── script.js       # Mobile menu, scroll animations, quote form
+│   └── script.js       # Mobile menu, operations carousel, scroll animations, quote form
 ├── assets/
-│   ├── logo.png        # Estavia shield logo (transparent)
+│   ├── logo.jpg        # Original shield logo with checkerboard background
+│   ├── logo-transparent.png # Logo copy with checkerboard removed
 │   ├── hero.jpg        # Hero background (port security guard)
 │   ├── guarding.jpg    # Gallery image
 │   ├── cctv.jpg        # Gallery image
 │   ├── port.jpg        # Gallery image
 │   ├── control-room.jpg# Gallery image
-│   └── cargo.jpg       # Gallery image
+│   ├── cargo.jpg       # Cargo escort image
+│   ├── training.jpeg   # Training gallery image
 └── README.md
 ```
 
@@ -57,6 +59,4 @@ Just open `index.html` in a browser — or better, use VS Code's
 
 ## Notes
 
-The gallery/hero images were extracted from the supplied poster. For best
-results on a live site, replace them with original high-resolution photos
-you own the rights to.
+The images currently in `assets/` are used directly by the site.

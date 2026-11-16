@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Estavia Risk &amp; Security Solutions Ltd — Protecting Assets. Securing Trust.</title>
   <meta name="description" content="Estavia Risk & Security Solutions Ltd offers guarding services, security training, cargo escort, port operations security, CCTV & control room management in Mombasa, Kenya." />
-  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="icon" type="image/png" href="assets/logo-transparent.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -17,7 +17,7 @@
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a href="#top" class="brand">
-        <img src="assets/logo.png" alt="Estavia Risk and Security Solutions Ltd logo" class="brand-logo" />
+        <img src="assets/logo-transparent.png" alt="Estavia Risk and Security Solutions Ltd logo" class="brand-logo" />
         <span class="brand-text">
           <strong>ESTAVIA</strong>
           <small>Risk &amp; Security Solutions Ltd</small>
@@ -90,7 +90,7 @@
       <div class="section-head">
         <p class="kicker">What we do</p>
         <h2>Our <span class="gold">Services</span></h2>
-        <p class="section-sub">Eighteen integrated security solutions — from risk assessment
+        <p class="section-sub">Nineteen integrated security solutions — from risk assessment
           to drone surveillance — built to protect every part of your operation.</p>
       </div>
       <div class="services-grid">
@@ -117,6 +117,12 @@
           <div class="service-ic"><svg viewBox="0 0 24 24"><path d="M1 8h12v9H1zM13 10h4l3 3v4h-7z"/><circle cx="5.5" cy="18.5" r="1.8"/><circle cx="16.5" cy="18.5" r="1.8"/></svg></div>
           <h3>Cargo Escort (Local &amp; Transit)</h3>
           <p>Safe and secure movement of your valuable cargo.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-ic"><svg viewBox="0 0 24 24"><path d="M3 5l6-2 6 3 6-2v15l-6 2-6-3-6 2z"/><path d="M9 3v15M15 6v15"/><path d="M12 9a2 2 0 100 4 2 2 0 000-4zM12 13v3"/></svg></div>
+          <h3>Route Survey</h3>
+          <p>Assess routes, identify hazards, and plan safer journeys for cargo and personnel.</p>
         </article>
 
         <article class="service-card">
@@ -241,12 +247,26 @@
         <p class="kicker">Our operations</p>
         <h2>In the <span class="gold">Field</span></h2>
       </div>
-      <div class="gallery-grid">
-        <figure><img src="assets/guarding.jpg" alt="Guarding services" /><figcaption>Guarding Services</figcaption></figure>
-        <figure><img src="assets/cctv.jpg" alt="CCTV and monitoring" /><figcaption>CCTV &amp; Monitoring</figcaption></figure>
-        <figure><img src="assets/port.jpg" alt="Port operations" /><figcaption>Port Operations</figcaption></figure>
-        <figure><img src="assets/control-room.jpg" alt="Control room" /><figcaption>Control Room</figcaption></figure>
-        <figure><img src="assets/cargo.jpg" alt="Cargo escort" /><figcaption>Cargo Escort</figcaption></figure>
+      <div class="gallery-carousel" id="gallery-carousel" role="region" aria-roledescription="carousel" aria-label="Our operations">
+        <div class="gallery-viewport" id="gallery-viewport">
+          <div class="gallery-grid" id="gallery-track" aria-live="off">
+            <figure><img src="assets/guarding.jpg" alt="Guarding services" /><figcaption>Guarding Services</figcaption></figure>
+            <figure><img src="assets/cctv.jpg" alt="CCTV and monitoring" /><figcaption>CCTV &amp; Monitoring</figcaption></figure>
+            <figure><img src="assets/port.jpg" alt="Port operations" /><figcaption>Port Operations</figcaption></figure>
+            <figure><img src="assets/control-room.jpg" alt="Control room" /><figcaption>Control Room</figcaption></figure>
+            <figure><img src="assets/cargo.jpg" alt="Heavy cargo truck accompanied by an escort vehicle" /><figcaption>Cargo Escort</figcaption></figure>
+            <figure><img src="assets/training.jpeg" alt="Instructor leading a training session" /><figcaption>Training</figcaption></figure>
+          </div>
+        </div>
+        <div class="gallery-controls">
+          <button class="gallery-control" id="gallery-prev" type="button" aria-label="Previous operations image">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+          </button>
+          <button class="gallery-control gallery-toggle" id="gallery-toggle" type="button" aria-label="Pause automatic slideshow" aria-pressed="false">Pause</button>
+          <button class="gallery-control" id="gallery-next" type="button" aria-label="Next operations image">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+          </button>
+        </div>
       </div>
     </div>
   </section>
@@ -286,6 +306,7 @@
           <option>Private Investigations</option>
           <option>Security Audits</option>
           <option>Cargo Escort (Local &amp; Transit)</option>
+          <option>Route Survey</option>
           <option>Event / Functions Security Management</option>
           <option>Control Room Management</option>
           <option>Security Equipment Installation</option>
@@ -311,7 +332,7 @@
   <footer class="site-footer">
     <div class="container footer-grid">
       <div class="footer-brand">
-        <img src="assets/logo.png" alt="Estavia logo" />
+        <img src="assets/logo-transparent.png" alt="Estavia logo" />
         <p class="footer-tag">Protecting Assets.<br /><span class="gold">Securing Trust.</span></p>
       </div>
       <div>
